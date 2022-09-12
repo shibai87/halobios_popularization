@@ -1,0 +1,38 @@
+<template>
+  <div id="knowledge">
+      <div class="knowledge_title">
+          <h1>科普知识管理模块</h1>
+      </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: '',
+  data () {
+    return {
+      msg: ''
+    }
+  },
+  methods: {
+
+  },
+  mounted () {
+
+  }
+}
+</script>
+
+<style scoped>
+.knowledge_title{
+    width: 100%;
+    
+   
+    line-height: 100px;
+}
+.knowledge_title h1{
+    width: 100px;
+     height: 100px;
+    margin: auto;
+}
+</style>
